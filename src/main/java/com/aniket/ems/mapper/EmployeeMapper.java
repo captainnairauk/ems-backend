@@ -3,7 +3,7 @@ package com.aniket.ems.mapper;
 import com.aniket.ems.dto.EmployeeDto;
 import com.aniket.ems.entity.Employee;
 
-public class EMployeeMapper {
+public class EmployeeMapper {
     public static EmployeeDto mapToEmployeeDto(Employee employee){
         return new EmployeeDto(
                 employee.getId(),
